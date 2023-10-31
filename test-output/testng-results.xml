@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-31T13:40:07 EDT" name="Testing nopcommerce Apps" finished-at="2023-10-31T13:41:25 EDT" duration-ms="78001">
+    <groups>
+    </groups>
+    <test started-at="2023-10-31T13:40:07 EDT" name="Regression1" finished-at="2023-10-31T13:41:25 EDT" duration-ms="78001">
+      <class name="TestPage.TestShop">
+        <test-method is-config="true" signature="appSetup()[pri:0, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:07 EDT" name="appSetup" finished-at="2023-10-31T13:40:13 EDT" duration-ms="5491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appSetup -->
+        <test-method signature="electronicsTab()[pri:1, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:13 EDT" name="electronicsTab" finished-at="2023-10-31T13:40:28 EDT" duration-ms="15417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronicsTab -->
+        <test-method signature="HTCimage()[pri:2, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:28 EDT" name="HTCimage" finished-at="2023-10-31T13:40:32 EDT" duration-ms="3583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HTCimage -->
+        <test-method signature="clickAC()[pri:3, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:32 EDT" name="clickAC" finished-at="2023-10-31T13:40:44 EDT" duration-ms="11891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAC -->
+        <test-method signature="termschkbtn()[pri:4, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:44 EDT" name="termschkbtn" finished-at="2023-10-31T13:40:51 EDT" duration-ms="6882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termschkbtn -->
+        <test-method signature="guestbtn()[pri:5, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:51 EDT" name="guestbtn" finished-at="2023-10-31T13:40:51 EDT" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestbtn -->
+        <test-method signature="continuebtn1()[pri:6, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:51 EDT" name="continuebtn1" finished-at="2023-10-31T13:40:55 EDT" duration-ms="4092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn1 -->
+        <test-method signature="shippingnext()[pri:7, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:55 EDT" name="shippingnext" finished-at="2023-10-31T13:40:55 EDT" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingnext -->
+        <test-method signature="continuebtn3()[pri:8, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:40:55 EDT" name="continuebtn3" finished-at="2023-10-31T13:41:04 EDT" duration-ms="8439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn3 -->
+        <test-method signature="continuebtn4()[pri:9, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:41:04 EDT" name="continuebtn4" finished-at="2023-10-31T13:41:09 EDT" duration-ms="5221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuebtn4 -->
+        <test-method signature="confirm()[pri:10, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:41:09 EDT" name="confirm" finished-at="2023-10-31T13:41:11 EDT" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm -->
+        <test-method signature="continuethank()[pri:11, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:41:11 EDT" name="continuethank" finished-at="2023-10-31T13:41:17 EDT" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- continuethank -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestPage.TestShop@74d7184a]" started-at="2023-10-31T13:41:17 EDT" name="afterTest" finished-at="2023-10-31T13:41:25 EDT" duration-ms="8576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPage.TestShop -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Testing nopcommerce Apps -->
+</testng-results>

@@ -1,0 +1,11 @@
+INFO    2023-10-31 13:40:07,831 [TestNG-tests-1] TestPage.TestShop  - setting up the browser for the test
+INFO    2023-10-31 13:40:32,319 [TestNG-tests-1] TestPage.TestShop  - HTCCell page image click successfully
+INFO    2023-10-31 13:40:44,214 [TestNG-tests-1] TestPage.TestShop  - add to cart button clicked
+INFO    2023-10-31 13:40:51,107 [TestNG-tests-1] TestPage.TestShop  - click on checkout btn
+INFO    2023-10-31 13:40:51,606 [TestNG-tests-1] TestPage.TestShop  - click on checkoutasguest btn
+INFO    2023-10-31 13:40:55,704 [TestNG-tests-1] TestPage.TestShop  - Fill the billing info and click continue
+INFO    2023-10-31 13:40:55,917 [TestNG-tests-1] TestPage.TestShop  - click on continue button
+INFO    2023-10-31 13:41:04,360 [TestNG-tests-1] TestPage.TestShop  - click on continue button
+INFO    2023-10-31 13:41:09,584 [TestNG-tests-1] TestPage.TestShop  - click on continue button
+INFO    2023-10-31 13:41:11,864 [TestNG-tests-1] TestPage.TestShop  - click on confirm button
+INFO    2023-10-31 13:41:17,192 [TestNG-tests-1] TestPage.TestShop  - click on continue button and homepage is displayed
