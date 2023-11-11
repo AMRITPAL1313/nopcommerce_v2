@@ -3,12 +3,12 @@
 <suite name="Testing nopcommerce Apps" parallel ="tests" thread-count="5">
 	
 	<listeners>
-<listener class-name="extentlisteners.ExtentListeners" />
+<listener class-name="extentlisteners.ExtentListeners"/>
 </listeners>
    
   <test name ="Regression1">
     <classes>
-    <class name="TestPage.TestShop"/>
+		 <class name="TestPage.TestShop"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

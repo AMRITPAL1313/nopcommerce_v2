@@ -3,23 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPage.TestShop">
+      <class name="TestPage.dataProviderMySqlTest">
         <methods>
-          <include name="confirm"/>
-          <include name="clickAC"/>
-          <include name="guestbtn"/>
-          <include name="continuebtn3"/>
-          <include name="continuebtn1"/>
-          <include name="continuethank"/>
-          <include name="continuebtn4"/>
-          <include name="appSetup"/>
-          <include name="electronicsTab"/>
-          <include name="HTCimage"/>
-          <include name="shippingnext"/>
-          <include name="afterTest"/>
-          <include name="termschkbtn"/>
+          <include name="SetUpTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- TestPage.TestShop -->
+      </class> <!-- TestPage.dataProviderMySqlTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
