@@ -25,7 +25,6 @@ public class ExtentManager {
 	        extent.setSystemInfo("Build no", "Ecom-1234");
 	        return extent;
 	    }
-
 	   /*
 	   public static String screenshotPath;
 	   public static String screenshotName;

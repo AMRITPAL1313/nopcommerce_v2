@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T20:56:59 EST" name="Default suite" finished-at="2023-11-06T20:57:17 EST" duration-ms="17516">
+  <suite started-at="2023-11-12T21:07:22 EST" name="Default suite" finished-at="2023-11-12T21:07:38 EST" duration-ms="16668">
     <groups>
     </groups>
-    <test started-at="2023-11-06T20:56:59 EST" name="Default test" finished-at="2023-11-06T20:57:17 EST" duration-ms="17516">
+    <test started-at="2023-11-12T21:07:22 EST" name="Default test" finished-at="2023-11-12T21:07:38 EST" duration-ms="16668">
       <class name="TestPage.dataProviderMySqlTest">
-        <test-method signature="SetUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPage.dataProviderMySqlTest@12bcd0c0]" started-at="2023-11-06T20:57:00 EST" name="SetUpTest" data-provider="mySqlReadData" finished-at="2023-11-06T20:57:12 EST" duration-ms="11252" status="PASS">
+        <test-method signature="SetUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPage.dataProviderMySqlTest@12bcd0c0]" started-at="2023-11-12T21:07:23 EST" name="SetUpTest" data-provider="mySqlReadData" finished-at="2023-11-12T21:07:34 EST" duration-ms="11062" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,7 +26,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpTest -->
-        <test-method signature="SetUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPage.dataProviderMySqlTest@12bcd0c0]" started-at="2023-11-06T20:57:12 EST" name="SetUpTest" data-provider="mySqlReadData" finished-at="2023-11-06T20:57:17 EST" duration-ms="5253" status="PASS">
+        <test-method signature="SetUpTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestPage.dataProviderMySqlTest@12bcd0c0]" started-at="2023-11-12T21:07:34 EST" name="SetUpTest" data-provider="mySqlReadData" finished-at="2023-11-12T21:07:38 EST" duration-ms="4622" status="PASS">
           <params>
             <param index="0">
               <value>
