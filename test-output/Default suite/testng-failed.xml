@@ -5,7 +5,7 @@
     <classes>
       <class name="TestPage.dataProviderMySqlTest">
         <methods>
-          <include name="SetUpTest" invocation-numbers="1"/>
+          <include name="SetUpTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- TestPage.dataProviderMySqlTest -->
     </classes>

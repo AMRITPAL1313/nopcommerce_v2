@@ -26,7 +26,7 @@ public class dataProviderMySqlTest extends baseClass{
 	
 	@Test(dataProvider = "mySqlReadData")
 	public void SetUpTest(String Url, String browser,String dummy) throws InterruptedException {
-		baseSetup(browser);
+		baseSetup(browser, Url);
 		driver = getDriver();
 		getDriver().get(Url);
 		hp = new homePage(getDriver());

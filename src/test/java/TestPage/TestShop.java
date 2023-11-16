@@ -56,9 +56,9 @@ package TestPage;
 			 }catch(IOException e) {
 				  e.printStackTrace();
 			  }
-	   //   baseSetup(props.getProperty("browser"),props.getProperty("base_url")); 
+	  //  baseSetup(props.getProperty("browser"),props.getProperty("base_url")); 
 		       
-		//  baseSetup("firefox", "https://demo.nopcommerce.com/");
+		 baseSetup("firefox", "https://demo.nopcommerce.com/");
 		  hp = new homePage(getDriver());
 		  cp=new CellPage(getDriver());
 		  Assert.assertNotNull(hp, "home page is not displayed");
@@ -82,8 +82,8 @@ package TestPage;
 		@Test(priority=1)
 		public void electronicsTab() throws InterruptedException {
 		cp=hp.hoverelectronicsTab();
-    	//System.out.println(getDriver().getTitle());
-		//System.out.println(getDriver().getCurrentUrl());
+    	System.out.println(getDriver().getTitle());
+		System.out.println(getDriver().getCurrentUrl());
 		if (getDriver().getTitle().equalsIgnoreCase("nopCommerce demo store. Cell phones")) {
 		System.out.println("nopCommerce Cellphone page is launched successfully!");
 	     }else {
@@ -97,7 +97,7 @@ package TestPage;
 		public void HTCimage() throws InterruptedException {
 			hcp= cp.clickHTC();
 			Assert.assertNotNull(hcp,"HTC cell page link click failure!");
-			//System.out.println("HTC cell page is loaded");
+			System.out.println("HTC cell page is loaded");
 		    Log.info("HTCCell page image click successfully");
 		} 
 
@@ -107,7 +107,7 @@ package TestPage;
 			getDriver().navigate().refresh();
 			scp = hcp.clickAC();
 			Assert.assertNotNull(scp,"ERROR !!shopping cart link click failure!");
-		//	System.out.println("shopping cart page is loaded");
+			System.out.println("shopping cart page is loaded");
 			 Log.info("Shopping cart page is loaded successfully.");
 		}  
 
@@ -117,7 +117,7 @@ package TestPage;
 			System.out.println("Shopping Cart Total: " + totalboxText);
 			sip = scp.clickCB();
 			Assert.assertNotNull(sip,"ERROR !! SignInPage  link click failure!");
-		//	System.out.println("SignInpage is loaded");
+			System.out.println("SignInpage is loaded");
 		 Log.info("SignInpage is loaded successfully.");
 	}
 		
@@ -125,7 +125,7 @@ package TestPage;
 		public void guestbtn() {
 			ap = sip.clickGUEST();
 			Assert.assertNotNull(ap," address page link click failure!");
-			//System.out.println("AddressPage is loaded");
+			System.out.println("AddressPage is loaded");
 		    Log.info("click on checkoutasguest button");
 		}
 		@Test(priority=6)
@@ -133,42 +133,42 @@ package TestPage;
 			Thread.sleep(3000);
 			sm=ap.InputData();
 			Assert.assertNotNull(sm,"shippingMethod link click failure!");
-		   // System.out.println("shippingMethod is loaded");
+		    System.out.println("shippingMethod is loaded");
 		    Log.info("Fill the billing info and click continue");
 		}
 		@Test(priority=7)
 		public void shippingnext() {
 			pmp=sm.continue2();
 			Assert.assertNotNull(pmp,"PaymentMethod Page link click failure!");
-		   // System.out.println("PaymentMethod Page is loaded");
+		    System.out.println("PaymentMethod Page is loaded");
 		    Log.info("click on continue button");
 		}
 		@Test(priority=8)
 		public void continuebtn3() throws InterruptedException {
 		    pip=pmp.clickPMC();
-		    Assert.assertNotNull(pip,"PaymentInfoPage link click failure!");
-		   // System.out.println("PaymentInfoPage is loaded");
+		   Assert.assertNotNull(pip,"PaymentInfoPage link click failure!");
+		   System.out.println("PaymentInfoPage is loaded");
 		    Log.info("click on continue button");
 		}
 		@Test(priority=9)
 		public void continuebtn4() throws InterruptedException {
 		    ocp=pip.clickPN();
 		    Assert.assertNotNull(ocp,"OrderConfirmationPage link click failure!");
-		  //  System.out.println("OrderConfirmationPage is loaded");
+		    System.out.println("OrderConfirmationPage is loaded");
 		    Log.info("click on continue button");
 		}
 		@Test(priority=10)
 		public void confirm() throws InterruptedException {
 		    typ=ocp.thanks();
 		    Assert.assertNotNull(typ,"ThankyouPage link click failure!");
-		  //  System.out.println("ThankyouPage is loaded");
+		    System.out.println("ThankyouPage is loaded");
 		    Log.info("click on confirm button");
 		}
 		@Test(priority=11)
 		public void continuethank() throws InterruptedException {
 			cpp=typ.epage();
-			 Assert.assertNotNull(cpp,"CompletePage link click failure!");
-			 //System.out.println("CompletePage is loaded");
+		    Assert.assertNotNull(cpp,"CompletePage link click failure!");
+			 System.out.println("CompletePage is loaded");
 		     Log.info("click on continue button and homepage is displayed");
 		}
 		@AfterTest

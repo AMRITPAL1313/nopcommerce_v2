@@ -1,11 +1,6 @@
-INFO    2023-11-03 19:16:52,837 [TestNG-tests-1] TestPage.TestShop  - setting up the browser for the test
-INFO    2023-11-03 19:17:18,815 [TestNG-tests-1] TestPage.TestShop  - HTCCell page image click successfully
-INFO    2023-11-03 19:17:30,362 [TestNG-tests-1] TestPage.TestShop  - Shopping cart page is loaded successfully.
-INFO    2023-11-03 19:17:37,518 [TestNG-tests-1] TestPage.TestShop  - SignInpage is loaded successfully.
-INFO    2023-11-03 19:17:38,076 [TestNG-tests-1] TestPage.TestShop  - click on checkoutasguest button
-INFO    2023-11-03 19:17:42,279 [TestNG-tests-1] TestPage.TestShop  - Fill the billing info and click continue
-INFO    2023-11-03 19:17:42,511 [TestNG-tests-1] TestPage.TestShop  - click on continue button
-INFO    2023-11-03 19:17:50,961 [TestNG-tests-1] TestPage.TestShop  - click on continue button
-INFO    2023-11-03 19:17:56,188 [TestNG-tests-1] TestPage.TestShop  - click on continue button
-INFO    2023-11-03 19:17:58,520 [TestNG-tests-1] TestPage.TestShop  - click on confirm button
-INFO    2023-11-03 19:18:03,868 [TestNG-tests-1] TestPage.TestShop  - click on continue button and homepage is displayed
+INFO    2023-11-16 13:17:39,402 [TestNG-tests-1] TestPage.TestShop  - setting up the browser for the test
+INFO    2023-11-16 13:18:11,693 [TestNG-tests-1] TestPage.TestShop  - HTCCell page image click successfully
+INFO    2023-11-16 13:18:23,454 [TestNG-tests-1] TestPage.TestShop  - Shopping cart page is loaded successfully.
+INFO    2023-11-16 13:18:31,091 [TestNG-tests-1] TestPage.TestShop  - SignInpage is loaded successfully.
+INFO    2023-11-16 13:18:31,805 [TestNG-tests-1] TestPage.TestShop  - click on checkoutasguest button
+INFO    2023-11-16 13:18:36,388 [TestNG-tests-1] TestPage.TestShop  - Fill the billing info and click continue

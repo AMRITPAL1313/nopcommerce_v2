@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>11/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 03 19:16:52 EDT 2023</td>
+<td>Started on:</td><td>Thu Nov 16 13:19:56 EST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>76 seconds (76253 ms)</td>
+<tr><td>Total time:</td><td>85 seconds (85371 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,67 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestPage.TestShop.afterTest()'><b>afterTest</b><br>Test class: TestPage.TestShop</td>
-<td><div><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:32949/devtools/browser/c4b7fd78-2b02-4ae7-99d2-2722c2192579
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:116)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:147)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:104)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:83)
-	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:334)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:430)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:392)
-	at TestPage.TestShop.afterTest(TestShop.java:181)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-... Removed 14 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1631275675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1631275675'><pre>org.openqa.selenium.remote.http.ConnectionFailedException: Unable to establish websocket connection to http://127.0.0.1:32949/devtools/browser/c4b7fd78-2b02-4ae7-99d2-2722c2192579
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.&lt;init&gt;(NettyWebSocket.java:116)
-	at org.openqa.selenium.remote.http.netty.NettyWebSocket.lambda$create$3(NettyWebSocket.java:147)
-	at org.openqa.selenium.remote.http.netty.NettyClient.openSocket(NettyClient.java:104)
-	at org.openqa.selenium.devtools.Connection.&lt;init&gt;(Connection.java:83)
-	at org.openqa.selenium.firefox.FirefoxDriver.maybeGetDevTools(FirefoxDriver.java:334)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:430)
-	at org.openqa.selenium.firefox.FirefoxDriver.quit(FirefoxDriver.java:392)
-	at TestPage.TestShop.afterTest(TestShop.java:181)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:663)
-	at org.testng.TestRunner.afterRun(TestRunner.java:933)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-</pre></div></td>
-<td>5</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -137,60 +76,60 @@ Driver info: driver.version: FirefoxDriver
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestPage.TestShop.clickAC()'><b>clickAC</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>11</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
-<td title='TestPage.TestShop.shippingnext()'><b>shippingnext</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>0</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
 <td title='TestPage.TestShop.HTCimage()'><b>HTCimage</b><br>Test class: TestPage.TestShop</td>
 <td></td>
 <td>3</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
 <tr>
 <td title='TestPage.TestShop.continuebtn3()'><b>continuebtn3</b><br>Test class: TestPage.TestShop</td>
 <td></td>
 <td>8</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.termschkbtn()'><b>termschkbtn</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>6</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.guestbtn()'><b>guestbtn</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>1</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.shippingnext()'><b>shippingnext</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>0</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
 <tr>
 <td title='TestPage.TestShop.continuethank()'><b>continuethank</b><br>Test class: TestPage.TestShop</td>
 <td></td>
 <td>5</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
-<td title='TestPage.TestShop.continuebtn1()'><b>continuebtn1</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>4</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
-<td title='TestPage.TestShop.termschkbtn()'><b>termschkbtn</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>7</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
-<td title='TestPage.TestShop.guestbtn()'><b>guestbtn</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>0</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
 <tr>
 <td title='TestPage.TestShop.confirm()'><b>confirm</b><br>Test class: TestPage.TestShop</td>
 <td></td>
 <td>2</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
-<tr>
-<td title='TestPage.TestShop.continuebtn4()'><b>continuebtn4</b><br>Test class: TestPage.TestShop</td>
-<td></td>
-<td>5</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
 <tr>
 <td title='TestPage.TestShop.electronicsTab()'><b>electronicsTab</b><br>Test class: TestPage.TestShop</td>
 <td></td>
 <td>15</td>
-<td>TestPage.TestShop@3f2049b6</td></tr>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.clickAC()'><b>clickAC</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>11</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.continuebtn1()'><b>continuebtn1</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>4</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
+<tr>
+<td title='TestPage.TestShop.continuebtn4()'><b>continuebtn4</b><br>Test class: TestPage.TestShop</td>
+<td></td>
+<td>5</td>
+<td>TestPage.TestShop@1dfd5f51</td></tr>
 </table><p>
 </body>
 </html>

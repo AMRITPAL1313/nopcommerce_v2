@@ -9,18 +9,12 @@
       <class name="TestPage.TestShop">
         <methods>
           <include name="confirm"/>
-          <include name="clickAC"/>
-          <include name="guestbtn"/>
           <include name="continuebtn3"/>
           <include name="continuethank"/>
-          <include name="continuebtn1"/>
           <include name="continuebtn4"/>
-          <include name="appSetup"/>
-          <include name="electronicsTab"/>
-          <include name="HTCimage"/>
+          <include name="baseSetup"/>
           <include name="shippingnext"/>
           <include name="afterTest"/>
-          <include name="termschkbtn"/>
         </methods>
       </class> <!-- TestPage.TestShop -->
     </classes>
